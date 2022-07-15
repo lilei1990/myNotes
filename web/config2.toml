@@ -1,0 +1,7 @@
+baseURL = 'http://www.lei90.com/'
+languageCode = 'en-us'
+title = '已经卷不动了'
+theme = "papermod"
+disablePathToLower = true
+relativeURLS = true
+
