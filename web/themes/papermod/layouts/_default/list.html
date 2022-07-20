@@ -1,9 +1,9 @@
 {{- define "main" }}
-
+<!--如果配置模式为true,并且是home页面,就加载配置模式home-->
 {{- if (and .Site.Params.profileMode.enabled .IsHome) }}
 {{- partial "index_profile.html" . }}
 {{- else }} {{/* if not profileMode */}}
-
+<!--如果不是home页面,就加载面包屑模板-->
 {{- if not .IsHome | and .Title }}
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}

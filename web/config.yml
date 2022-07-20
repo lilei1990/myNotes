@@ -15,6 +15,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
+defaultContentLanguage: zh
 # googleAnalytics: UA-123-45
 
 minify:
@@ -22,7 +23,7 @@ minify:
   # minifyOutput: true
 
 languages:
-  en:
+  zh:
     languageName: "中文"
     languageAltTitle: 中文
     weight: 1
@@ -47,6 +48,9 @@ languages:
           weight: 5
         - name: 搜索
           url: search/
+          weight: 12
+        - name: 目录
+          url: dir/
           weight: 10
 
 outputs:
@@ -64,7 +68,8 @@ params:
 
   defaultTheme: auto
   # disableThemeToggle: true
-  ShowShareButtons: true
+  # 共享按钮
+  ShowShareButtons: false
   ShowReadingTime: true
   # disableSpecial1stPost: true
   displayFullLangName: true
@@ -75,6 +80,8 @@ params:
   ShowRssButtonInSectionTermList: true
   #在博客文章中显示目录 (Toc)
   ShowToc: false
+  #目录默认打开状态
+  TocOpen: true
   # comments: false
   images: [ "papermod-cover.png" ]
 
@@ -85,11 +92,11 @@ params:
 #      url: "https://ko-fi.com/adityatelange"
     - name: Rss
       url: "index.xml"
-
-  editPost:
-    URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+# 编辑
+  # editPost:
+  #   URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
   # label:
   #     text: "Home"
@@ -101,7 +108,8 @@ params:
   #         SiteVerificationTag: "XYZabc"
 
   assets:
-    disableHLJS: true
+    # 高亮显示代码
+    disableHLJS: false
   #     favicon: "<link / abs url>"
   #     favicon16x16: "<link / abs url>"
   #     favicon32x32: "<link / abs url>"
@@ -133,7 +141,10 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
-
+  tableOfContents:
+    endLevel: 5
+    ordered: false
+    startLevel: 2
 privacy:
   vimeo:
     disabled: true
