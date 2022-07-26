@@ -1,3 +1,8 @@
+---
+author: "lei"
+date: "2019-03-05"
+---
+
 #### adb链接mumu模拟器
     adb connect 127.0.0.1:7555
     adb shell

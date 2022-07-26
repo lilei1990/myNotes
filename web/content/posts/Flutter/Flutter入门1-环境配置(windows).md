@@ -20,7 +20,7 @@
       - 等待Android Studio安装SDK并创建项目.
       - 记得配置环境变量flutter的sdk目录下的bin文件夹
 
-        ![flutter_info](images/flutter_info.png)
+        ![flutter_info](imagers/flutter_info.png)
 
     - **体验热重载**
       - AndroidStudio直接ctrl+s保存代码自动热更新,或者点击闪电图标
@@ -56,4 +56,4 @@
             flutter run --enable-software-rendering       
 
         或者直接配置启动参数  
-        ![image_run](images/image_run.png)
+        ![image_run](imagers/image_run.png)

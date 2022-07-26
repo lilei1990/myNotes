@@ -9,7 +9,7 @@ Service是Android中实现程序后台运行的解决方案，它非常适用于
 **按运行地点分类：**  
 
 
-![](images/Android_3_Service_images/72fde014.png)
+![](imagers/72fde014.png)
   
 
 
@@ -17,7 +17,7 @@ Service是Android中实现程序后台运行的解决方案，它非常适用于
 **按运行类型分类：**  
 
 
-![](images/Android_3_Service_images/a43ab502.png)
+![](imagers/a43ab502.png)
   
 
 
@@ -25,13 +25,13 @@ Service是Android中实现程序后台运行的解决方案，它非常适用于
 **按使用方式分类：**  
 
 
-![](images/Android_3_Service_images/360eb885.png)
+![](imagers/360eb885.png)
   
 
 
 ### 三、Service生命周期
 
-![](images/Android_3_Service_images/ea2f8a36.png)
+![](imagers/ea2f8a36.png)
   
 
 

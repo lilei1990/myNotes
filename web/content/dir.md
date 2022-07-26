@@ -2,17 +2,11 @@
 
 
 <ul>
-<details >
+<details  open>
 <summary>posts</summary>
 	<ul>
 <details >
 <summary>Android</summary>
-		<ul><a href=../posts/Android/Android_buildSrc>Android_buildSrc.md</a>
-</ul>
-		<ul><a href=../posts/Android/Android的资源加载机制>Android的资源加载机制.md</a>
-</ul>
-		<ul><a href=../posts/Android/Android知识整体思维导图.png>Android知识整体思维导图.png</a>
-</ul>
 		<ul>
 <details >
 <summary>jetpack</summary>
@@ -106,11 +100,13 @@
 </ul>
 </details>
 </ul>
+		<ul><a href=../posts/Android/Android_buildSrc>Android_buildSrc.md</a>
+</ul>
+		<ul><a href=../posts/Android/Android的资源加载机制>Android的资源加载机制.md</a>
+</ul>
+		<ul><a href=../posts/Android/Android知识整体思维导图.png>Android知识整体思维导图.png</a>
+</ul>
 </details>
-</ul>
-	<ul><a href=../posts/dir>dir.md</a>
-</ul>
-	<ul><a href=../posts/dir123>dir123.md</a>
 </ul>
 	<ul>
 <details >
@@ -135,12 +131,6 @@
 	<ul>
 <details >
 <summary>javaFx</summary>
-		<ul><a href=../posts/javaFx/1.JavaFX应用程序结构>1.JavaFX应用程序结构.md</a>
-</ul>
-		<ul><a href=../posts/javaFx/2.Application类>2.Application类.md</a>
-</ul>
-		<ul><a href=../posts/javaFx/3.布局>3.布局.md</a>
-</ul>
 		<ul>
 <details >
 <summary>tornadofx</summary>
@@ -150,16 +140,13 @@
 </ul>
 			<ul><a href=../posts/javaFx/tornadofx/3.Controller>3.Controller.md</a>
 </ul>
-			<ul>
-<details >
-<summary>image</summary>
-				<ul><a href=../posts/javaFx/tornadofx/image/img.png>img.png</a>
-</ul>
-				<ul><a href=../posts/javaFx/tornadofx/image/img_1.png>img_1.png</a>
-</ul>
 </details>
 </ul>
-</details>
+		<ul><a href=../posts/javaFx/1.JavaFX应用程序结构>1.JavaFX应用程序结构.md</a>
+</ul>
+		<ul><a href=../posts/javaFx/2.Application类>2.Application类.md</a>
+</ul>
+		<ul><a href=../posts/javaFx/3.布局>3.布局.md</a>
 </ul>
 </details>
 </ul>

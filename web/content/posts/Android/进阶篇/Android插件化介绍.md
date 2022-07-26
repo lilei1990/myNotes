@@ -6,11 +6,11 @@
 
 ### 2.背景
 
-![](images/843bdbeb.png)
+![](imagers/843bdbeb.png)
 
 ### 3.优点
 
-![](images/0a1f40b2.png)
+![](imagers/0a1f40b2.png)
 
 ## 二、Android插件化基础
 

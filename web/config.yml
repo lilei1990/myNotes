@@ -29,23 +29,20 @@ languages:
     weight: 1
     profileMode:
       enabled: true
-      title: 内卷日志
+      title: 精神内耗
       imageUrl: "https://img1.baidu.com/it/u=2473556585,2024327707&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=501"
       imageTitle: 内卷 image
       # imageWidth: 120
       # imageHeight: 120
-      subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-      buttons:
-        - name: 博客
-          url: /posts
+      subtitle: "☄️ Java | ☁️ Kotlin "
+      # buttons:
+      #   - name: 文章
+      #     url: /posts
     menu:
       main:
         - name: 首页
           url: "#"
           weight: 1
-        - name: 笔记
-          url: posts/
-          weight: 5
         - name: 搜索
           url: search/
           weight: 12

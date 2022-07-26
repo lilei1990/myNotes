@@ -22,7 +22,7 @@
                 );
               }
             }
-    ![image](images/image_helloworld.png)
+    ![image](imagers/image_helloworld.png)
 
   - **pubspec.yaml配置文件**
     - pubspec文件管理Flutter应用程序的assets(资源，如图片、package等)
@@ -39,7 +39,7 @@
 
     - 添加:english_words: ^3.1.0 并pub get获取外部包
 
-        ![image](images/image_pub_get.png)
+        ![image](imagers/image_pub_get.png)
 
     - 导入获取的外部包
 

@@ -28,7 +28,7 @@ Flow 库是在 Kotlin Coroutines 1.3.2 发布之后新增的库，也叫做异�
  
 #Kotlin Flow 如何在 MVVM 中使用
 View + DataBinding + ViewModel + Model 
-![](images/ed6c64f9.png)
+![](imagers/ed6c64f9.png)
 
 
 **Kotlin Flow 在数据源中的使用**

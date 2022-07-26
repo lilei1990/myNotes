@@ -26,7 +26,7 @@ Dalvik虚拟机与传统的Java虚拟机有着许多不同点，两者并不兼�
 
 传统的Java程序经过编译，生成Java字节码保存在class文件中，Java虚拟机通过解码class文件中的内容来运行程序。而Dalvik虚拟机运行的是Dalvik字节码，所有的Dalvik字节码由Java字节码转换而来，并被打包到一个DEX（Dalvik Executable）可执行文件中。Dalvik虚拟机通过解释DEX文件来执行这些字节码。
 
-![](images/Android_11_Dalvik_JVM_art_images/289df216.png)
+![](imagers/289df216.png)
 
 **Dalvik可执行文件体积小。Android SDK中有一个叫dx的工具负责将Java字节码转换为Dalvik字节码。**
 
@@ -34,11 +34,11 @@ dx工具对Java类文件重新排列，消除在类文件中出现的所有冗�
 
 针对每个Class文件，都由如下格式进行组成：
 
-![](images/Android_11_Dalvik_JVM_art_images/7ae4e334.png)
+![](imagers/7ae4e334.png)
 
 dex格式文件使用共享的、特定类型的常量池机制来节省内存。常量池存储类中的所有字面常量，它包括字符串常量、字段常量等值。
 
-![](images/Android_11_Dalvik_JVM_art_images/7b5adc7e.png)
+![](imagers/7b5adc7e.png)
 
 简单来讲，dex格式文件就是将多个class文件中公有的部分统一存放，去除冗余信息。
 
@@ -48,13 +48,13 @@ dex格式文件使用共享的、特定类型的常量池机制来节省内存�
 
 ## 四、Dalvik虚拟机的结构
 
-![](images/Android_11_Dalvik_JVM_art_images/905f29f4.png)
+![](imagers/905f29f4.png)
 
 一个应用首先经过DX工具将class文件转换成Dalvik虚拟机可以执行的dex文件，然后由类加载器加载原生类和Java类，接着由解释器根据指令集对Dalvik字节码进行解释、执行。最后，根据dvm_arch参数选择编译的目标机体系结构。
 
 ## 五、Android APK 编译打包流程
 
-![](images/Android_11_Dalvik_JVM_art_images/cea8290c.png)
+![](imagers/cea8290c.png)
 
 1.Java编译器对工程本身的java代码进行编译，这些java代码有三个来源：app的源代码，由资源文件生成的R文件(aapt工具)，以及有aidl文件生成的java接口文件(aidl工具)。产出为.class文件。
 
