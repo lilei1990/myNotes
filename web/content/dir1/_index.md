@@ -51,7 +51,7 @@
 > ### [Flutter](../posts/Flutter)
 >> #### [Dart语言1](../posts/Flutter/Dart语言1)
 >> #### [Flutter入门1-环境配置(windows)](../posts/Flutter/Flutter入门1-环境配置(windows))
->> #### [Flutter入门2-hello_flutter](../posts/Flutter/Flutter入门2-hello_flutter)
+>> #### [Flutter入门2-hello_flutter](../posts/Flutter/2-hello_flutter)
 
 > ### [javaFx](../posts/javaFx)
 >> #### [tornadofx](../posts/javaFx)

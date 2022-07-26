@@ -1,12 +1,21 @@
-import java.io.*;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.text.SimpleDateFormat;
 
 public class PathDir {
     static File file = new File("D:/hugo/web/content/posts");
     static File fl = new File("D:/hugo/web/content/");
 
     public static void main(String[] args) {
+
+        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String time = df.format(System.currentTimeMillis());
+        stringBuffer.append("---\n" +
+                "author: \"lei\"\n" +
+                "date: \""+time+"\"\n" +
+                "---\n");
         stringBuffer.append("#### 目录 \n\n\n");
         printFile(file, 0, "..");
     }
@@ -14,7 +23,7 @@ public class PathDir {
     static StringBuffer stringBuffer = new StringBuffer();
 
     public static void printFile(File file, int level, String path) {
-        if (file.getName().equals("images")) {
+        if (file.getName().equals("imagers")) {
             return;
         }
         //如果文件路径是个目录,就有子集

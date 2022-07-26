@@ -1,3 +1,8 @@
+---
+author: "lei"
+date: "2019-03-05"
+---
+
 ## 一、View绘制的流程框架
 
 ![](imagers/0ee142d8.png)

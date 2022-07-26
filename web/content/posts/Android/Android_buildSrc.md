@@ -1,3 +1,8 @@
+---
+author: "lei"
+date: "2019-03-05"
+---
+
 #buildSrc
 
 buildSrc 是 Android 项目中一个比较特殊的 project，在 buildSrc 中可以编写 Groovy 语言，但是现在谷歌越来也推荐使用 Kotlin 来编写编译语句。

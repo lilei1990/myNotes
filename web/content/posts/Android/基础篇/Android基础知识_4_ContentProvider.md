@@ -1,3 +1,8 @@
+---
+author: "lei"
+date: "2019-03-05"
+---
+
 ## 一、定义
 
 ContentProvider，即内容提供者属于Android的四大组件之一。

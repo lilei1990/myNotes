@@ -1,3 +1,7 @@
+---
+author: "lei"
+date: "2019-03-05"
+---
 
 
 **Activity生命周期。**

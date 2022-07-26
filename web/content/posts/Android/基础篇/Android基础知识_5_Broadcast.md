@@ -1,3 +1,8 @@
+---
+author: "lei"
+date: "2019-03-05"
+---
+
 ## 一、 定义
 
 - `BroadcastReceiver`（广播接收器），属于Android四大组件之一

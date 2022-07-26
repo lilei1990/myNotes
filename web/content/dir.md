@@ -1,3 +1,7 @@
+---
+author: "lei"
+date: "2022-07-26 18:36:28"
+---
 #### 目录 
 
 
@@ -31,8 +35,6 @@
 			<ul><a href=../posts/Android/jetpack/8.Paging架构组件>8.Paging架构组件.md</a>
 </ul>
 			<ul><a href=../posts/Android/jetpack/9.Paging3架构组件>9.Paging3架构组件.md</a>
-</ul>
-			<ul><a href=../posts/Android/jetpack/tree>tree.md</a>
 </ul>
 </details>
 </ul>
@@ -120,11 +122,11 @@
 	<ul>
 <details >
 <summary>Flutter</summary>
+		<ul><a href=../posts/Flutter/1-环境配置windows>1-环境配置windows.md</a>
+</ul>
+		<ul><a href=../posts/Flutter/2-hello_flutter>2-hello_flutter.md</a>
+</ul>
 		<ul><a href=../posts/Flutter/Dart语言1>Dart语言1.md</a>
-</ul>
-		<ul><a href=../posts/Flutter/Flutter入门1-环境配置(windows)>Flutter入门1-环境配置(windows).md</a>
-</ul>
-		<ul><a href=../posts/Flutter/Flutter入门2-hello_flutter>Flutter入门2-hello_flutter.md</a>
 </ul>
 </details>
 </ul>
@@ -178,10 +180,6 @@
 <summary>other</summary>
 		<ul><a href=../posts/other/adb命令集>adb命令集.md</a>
 </ul>
-		<ul><a href=../posts/other/Android Studio快捷键大全>Android Studio快捷键大全.md</a>
-</ul>
-		<ul><a href=../posts/other/Android基础知识>Android基础知识.md</a>
-</ul>
 		<ul><a href=../posts/other/Android开发中定义之shape>Android开发中定义之shape.md</a>
 </ul>
 		<ul><a href=../posts/other/android知识结构图.png>android知识结构图.png</a>
@@ -190,6 +188,8 @@
 </ul>
 		<ul><a href=../posts/other/Git Flow说明及操作规范-20200420.docx>Git Flow说明及操作规范-20200420.docx</a>
 </ul>
+		<ul><a href=../posts/other/Git_Flow说明及操作规范>Git_Flow说明及操作规范.md</a>
+</ul>
 		<ul><a href=../posts/other/gradle命令>gradle命令.md</a>
 </ul>
 		<ul><a href=../posts/other/gradle配置比较>gradle配置比较.md</a>
@@ -197,8 +197,6 @@
 		<ul><a href=../posts/other/hugo安装配置>hugo安装配置.md</a>
 </ul>
 		<ul><a href=../posts/other/Markdown语法>Markdown语法.md</a>
-</ul>
-		<ul><a href=../posts/other/README>README.md</a>
 </ul>
 		<ul><a href=../posts/other/位运算小技巧>位运算小技巧.md</a>
 </ul>
@@ -211,15 +209,6 @@
 		<ul><a href=../posts/other/有待学习的内容>有待学习的内容.md</a>
 </ul>
 		<ul><a href=../posts/other/正则表达式>正则表达式.md</a>
-</ul>
-</details>
-</ul>
-	<ul>
-<details >
-<summary>状态机</summary>
-		<ul><a href=../posts/状态机/松鼠状态机>松鼠状态机.md</a>
-</ul>
-		<ul><a href=../posts/状态机/状态机引擎选型>状态机引擎选型.md</a>
 </ul>
 </details>
 </ul>
