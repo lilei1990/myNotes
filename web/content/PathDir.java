@@ -3,18 +3,26 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 
+/**
+ * 生成目录
+ * javac -encoding UTF-8 PathDir.java
+ * java PathDir
+ *
+ */
 public class PathDir {
     static File file = new File("D:/hugo/web/content/posts");
     static File fl = new File("D:/hugo/web/content/");
 
     public static void main(String[] args) {
-
-        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        String time = df.format(System.currentTimeMillis());
+        Long lastModified = file.lastModified();
+        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+        String time = df.format(lastModified);
         stringBuffer.append("---\n" +
                 "author: \"lei\"\n" +
                 "date: \""+time+"\"\n" +
+                "ShowToc: false\n"+
                 "---\n");
         stringBuffer.append("#### 目录 \n\n\n");
         printFile(file, 0, "..");
@@ -24,6 +32,10 @@ public class PathDir {
 
     public static void printFile(File file, int level, String path) {
         if (file.getName().equals("imagers")) {
+            return;
+        }
+        System.out.println(file.getName());
+        if (file.getName().contains(".png")) {
             return;
         }
         //如果文件路径是个目录,就有子集

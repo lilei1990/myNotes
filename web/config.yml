@@ -78,7 +78,7 @@ params:
   #在博客文章中显示目录 (Toc)
   ShowToc: true
   #目录默认打开状态
-  TocOpen: true
+  TocOpen: false
   comments: false
   images: [ "papermod-cover.png" ]
 
